@@ -6,4 +6,12 @@ public class Tas {
   String Bahan;
   String Model;
   double harga;
+  
+  void cetakInfo(){
+      System.out.println("Merk \t: "+Merk+"\n"+
+                         "Warna \t: "+Warna+"\n"+
+                         "Bahan \t: "+Bahan+"\n"+ 
+                         "Model \t: "+Model+"\n"+
+                         "Harga \t: "+harga);
+  }
 }
