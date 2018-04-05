@@ -6,4 +6,14 @@ public class TasSekolah extends Tas{
     void throttle(){
         System.out.println("Buku,Pensil,Pulpen,Penggaris,penghapus");
     }
+
+    public String getJenisTasSekolah() {
+        return JenisTasSekolah;
+    }
+
+    public void setJenisTasSekolah(String JenisTasSekolah) {
+        this.JenisTasSekolah = JenisTasSekolah;
+    }
+    
+    
 }
