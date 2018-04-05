@@ -1,11 +1,11 @@
 package praktek03;
 
 public class Tas {
-  String Merk;
-  String Warna;
-  String Bahan;
-  String Model;
-  double harga;
+  private String Merk;
+  private String Warna;
+  private String Bahan;
+  private String Model;
+  private double harga;
   
   void cetakInfo(){
       System.out.println("Merk \t: "+Merk+"\n"+
