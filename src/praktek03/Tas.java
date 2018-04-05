@@ -14,4 +14,46 @@ public class Tas {
                          "Model \t: "+Model+"\n"+
                          "Harga \t: "+harga);
   }
+
+    public String getMerk() {
+        return Merk;
+    }
+
+    public void setMerk(String Merk) {
+        this.Merk = Merk;
+    }
+
+    public String getWarna() {
+        return Warna;
+    }
+
+    public void setWarna(String Warna) {
+        this.Warna = Warna;
+    }
+
+    public String getBahan() {
+        return Bahan;
+    }
+
+    public void setBahan(String Bahan) {
+        this.Bahan = Bahan;
+    }
+
+    public String getModel() {
+        return Model;
+    }
+
+    public void setModel(String Model) {
+        this.Model = Model;
+    }
+
+    public double getHarga() {
+        return harga;
+    }
+
+    public void setHarga(double harga) {
+        this.harga = harga;
+    }
+  
+  
 }
