@@ -8,8 +8,10 @@ public class TasAksi {
         s.setBahan("Kulit");
         s.setModel("Selempang");
         s.setHarga(200000);
+        //gak bisa s.setJenisTasSekolah();
         
         s.cetakInfo();
+        
         System.out.print("Merknya \t: ");
         System.out.println(s.getMerk());
         System.out.print("Warnanya \t: ");
@@ -20,6 +22,17 @@ public class TasAksi {
         System.out.println(s.getModel());
         System.out.print("Harganya \t: ");
         System.out.println(s.getHarga());
+        
+        TasSekolah sm = new TasSekolah();
+        sm.setMerk("Alexsa");
+        sm.setWarna("Hijau");
+        sm.setBahan("Beludru");
+        sm.setModel("TasSekolah");
+        sm.setHarga(2500000);
+        sm.setJenisTasSekolah("TasRansel");
+        sm.cetakInfo();
+        System.out.println("Jenis \t:"+sm.getJenisTasSekolah());
+        sm.throttle();
     }
     
 }
