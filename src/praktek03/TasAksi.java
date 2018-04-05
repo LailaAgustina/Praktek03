@@ -10,6 +10,16 @@ public class TasAksi {
         s.setHarga(200000);
         
         s.cetakInfo();
+        System.out.print("Merknya \t: ");
+        System.out.println(s.getMerk());
+        System.out.print("Warnanya \t: ");
+        System.out.println(s.getWarna());
+        System.out.print("Bahannya \t: ");
+        System.out.println(s.getBahan());
+        System.out.print("Modelnya \t: ");
+        System.out.println(s.getModel());
+        System.out.print("Harganya \t: ");
+        System.out.println(s.getHarga());
     }
     
 }
